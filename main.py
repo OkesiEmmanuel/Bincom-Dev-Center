@@ -3,7 +3,7 @@ import requests
 from collections import Counter
 import statistics
 from db import save_colors_to_db
-from utils import (
+from helpers import (
     generate_random_binary, fibonacci_sum, recursive_search, calculate_variance, calculate_probability
 )
 
