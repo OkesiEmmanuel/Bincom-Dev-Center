@@ -13,7 +13,7 @@ response = requests.get(url)
 web_content = response.text
 
 # Step 2: Extract color data using regular expression. colors can be added in the color patterns
-color_pattern = r'\b(red|blue|green|yellow|black|white)\b'
+color_pattern = r'\b(red|blue|green|yellow|black|white|orange|brown| pink|cream)\b'
 colors = re.findall(color_pattern, web_content, re.IGNORECASE)
 
 # Normalize to lowercase
